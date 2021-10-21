@@ -782,6 +782,21 @@ iframe {
     z-index: 100000000;
     transition: all .7s ease;
 }
+.close-btn{
+    height: 50px;
+    background:transparent;
+    border: none !important;
+    position:relative;
+    width: 100%;
+    top: -4vh;
+    text-align: right;
+    margin: 0;
+  
+}
+.close-btn i{
+    color:rgba(255, 255, 255, 0.568) !important;
+    cursor:pointer;
+}
 
 #filtered {
     transition: all .5s ease;
@@ -810,6 +825,7 @@ iframe {
     font-size: 1.5rem;
     color: #fff;
     text-align: center;
+    background: transparent;
 }
 
 lable {
@@ -823,6 +839,7 @@ lable {
     background: transparent;
     outline: none;
     height: 40px;
+    width: 100%;
     color: white;
     font-size: 19px;
     cursor: context-menu;
@@ -1819,6 +1836,7 @@ iframe {
     background: transparent;
     outline: none;
     height: 40px;
+    width: 100%;
     color: white;
     font-size: 19px;
     cursor: context-menu;

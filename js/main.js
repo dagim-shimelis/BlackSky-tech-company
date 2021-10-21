@@ -59,6 +59,12 @@ function hireUs(){
     hirePage.style.top="0";  
 }
 
+function closeHireUs(){
+    filter.style.filter="none";
+    hirePage.style.display="none";
+    hirePage.style.top="-100vh";  
+}
+
 
 
 var acc = document.getElementsByClassName("accordion");
