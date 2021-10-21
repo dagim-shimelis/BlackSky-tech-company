@@ -1,0 +1,662 @@
+
+.why-title::before{
+    content: 'why choose us';
+    animation: why-title  1.5s infinite alternate;
+}
+.services-title::before{
+    content: 'our services';
+    animation: services-title  1.5s infinite alternate;
+}
+.pre-projects-title::before{
+    content: 'completed projects';
+    animation: projects-title  1.5s infinite alternate;
+    white-space: pre-wrap;
+}
+.tool-list-title::before{
+    content: 'tools we use';
+    animation: tools-title  1.5s infinite alternate;
+}
+.team-title::before{
+    content: 'our team';
+    animation: team-title  1.5s infinite alternate;
+}
+
+.hero-title-nbr::before {
+    content: 'Tech Company';
+    animation: techCompany 1.5s infinite alternate;
+}
+/* pc pic animation */
+@keyframes cutout2 {
+        0%,100%{
+            transform: translateX(0) translateY(0);
+    opacity: 0;
+        }
+        50%{
+            transform: translateX(2rem) translateY(-2rem);
+           opacity: 1;
+        }
+    }
+    @keyframes cutout3 {
+        0%,100%{
+            transform: translateX(0) translateY(0);
+    opacity: 1;
+        }
+        50%{
+            transform: translateX(4rem) translateY(-4rem);
+           opacity: .9;
+        }
+    }
+
+/*glitch text effect animations*/
+
+
+
+
+
+
+
+
+
+
+@keyframes projects-title {
+   
+    0% {
+        content: 'completed projects';
+    }
+
+    2% {
+        content: '34!#H*2   7%D$%dft3';
+    }
+
+    4% {
+        content: '/%#!`23   !#$(kg*%-';
+    }
+
+    6% {
+        content: 'Cnghs%x^   T67%asGq$';
+    }
+
+    8% {
+        content: 'hoosuss   fg#^sd*3';
+    }
+
+    10% {
+        content: 'T67%asGq$   SF5*%78S';
+    }
+
+    12% {
+        content: '!#$(kg*%-   Cnghs%x^';
+    }
+    14% {
+        content: 'fg#^sd*3   hoosuss';
+      
+    }16% {
+        content: '7%D$%dft3   W#$%475%';
+    }
+
+    18% {
+        content: '^&\Hrehz   34!#H*2';
+    }
+
+    20% {
+        content: '7%D$%dft3   /%#!`23';   
+
+    }
+
+    22% {
+        content: 'W#$%475%   ^&\Hrehz';
+    }
+    
+     24% {
+        content: 'completed projects';
+    }
+
+    100% {
+        content: 'completed projects';
+        
+
+    }
+}
+
+@keyframes team-title {
+   
+    0% {
+        content: 'our team';
+    }
+
+    2% {
+        content: '%G# 7%D$';
+    }
+
+    4% {
+        content: 'FH% kg*%';
+    }
+
+    6% {
+        content: 'G^# sGq$';
+    }
+
+    8% {
+        content: 'Q!@ sd*3';
+    }
+
+    10% {
+        content: 'RY& %78S';
+    }
+
+    12% {
+        content: 'T*$ Cngh';
+    }
+    14% {
+        content: 'why hoos';
+      
+    }16% {
+        content: 'yR* 475%';
+    }
+
+    18% {
+        content: 'Z^8 #H*2';
+    }
+
+    20% {
+        content: '*(_) !`23';   
+
+    }
+
+    22% {
+        content: '%&* rehz';
+    }
+    
+     24% {
+        content: 'our team';
+      
+    }
+
+    100% {
+        content: 'our team';
+        
+
+    }
+}
+
+@keyframes services-title {
+   
+    0% {
+        content: 'our services';
+    }
+
+    2% {
+        content: '%G# 7%D$%dft3';
+    }
+
+    4% {
+        content: 'FH% !#$(kg*%-';
+    }
+
+    6% {
+        content: 'G^# T67%asGq$';
+    }
+
+    8% {
+        content: 'Q!@ fg#^sd*3';
+    }
+
+    10% {
+        content: 'RY& SF5*%78S';
+    }
+
+    12% {
+        content: 'T*$ Cnghs%x^';
+    }
+    14% {
+        content: 'why hoosuss';
+      
+    }16% {
+        content: 'yR* W#$%475%';
+    }
+
+    18% {
+        content: 'Z^8 34!#H*2';
+    }
+
+    20% {
+        content: '*(_) /%#!`23';   
+
+    }
+
+    22% {
+        content: '%&* ^&\Hrehz';
+    }
+    
+     24% {
+        content: 'our services';
+      
+    }
+
+    100% {
+        content: 'our services';
+        
+
+    }
+}
+
+@keyframes tools-title {
+    0% {
+        content: 'tools we use';
+        
+    }
+
+    2% {
+        content: 'c0%!@% yg T$^';
+        
+    }
+
+    4% {
+        content: '$^&!@% 6g $%H';
+    }
+
+    6% {
+        content: 'D^&H!+ s4 T^!';
+    }
+
+    8% {
+        content: 'M&@()K dE ^&%';
+    }
+
+    10% {
+        content: '%@#GJ& 2$ ^$%';
+    }
+
+    12% {
+        content: 'F<?>SG% +! Hh1';
+    }
+
+    14% {
+        content: 'I#N_+T& r$ &J^';
+    }
+
+    16% {
+        content: 'W#$%47@ 5% yR*';
+    }
+
+    18% {
+        content: '@34!#HJ *2 Z^8';
+    }
+
+    20% {
+        content: '=/%#!`2 #3 *(_)';   
+
+    }
+
+    22% {
+        content: '^&$Hreh z$ %&*';
+    }
+    
+
+/*
+    24% {
+        content: '!#$ $^&dg$^ 2$';
+    }
+
+    26% {
+        content: '%G# 7%D$%df4 t3';
+    }
+
+    28% {
+        content: 'FH% !#$()kg* %-';
+    }
+
+    30% {
+        content: 'G^# T67#% G^ q$';
+    }
+
+    32% {
+        content: 'Q!@ fg#%^sdf *3';
+    }
+
+    34% {
+        content: 'RY& SF5*%67G 8S';
+    }
+
+    36% {
+        content: 'T*$ C*nghs% x^';
+        opacity: .5;
+
+    }
+*/
+
+    24% {
+        content: 'tools we use';
+      
+    }
+
+    100% {
+        content: 'tools we use';
+        
+
+    }
+}
+
+@keyframes why-title {
+    0% {
+        content: 'why choose us';
+        
+    }
+
+    2% {
+        content: 'T$^ c0%!@% yg';
+        
+    }
+
+    4% {
+        content: '$%H $^&!@% 6g';
+    }
+
+    6% {
+        content: 'T^! D^&H!+ 4';
+    }
+
+    8% {
+        content: '^&% M&@()K dE';
+    }
+
+    10% {
+        content: '^$% %@#GJ& 2$';
+    }
+
+    12% {
+        content: 'Hh1 F<?>SG% +!';
+    }
+
+    14% {
+        content: '&J^ I#N_+T& r$';
+    }
+
+    16% {
+        content: 'yR* W#$%47@ 5%';
+    }
+
+    18% {
+        content: 'Z^8 @34!#HJ *2';
+    }
+
+    20% {
+        content: '*(_) =/%#!`2 #3';   
+
+    }
+
+    22% {
+        content: '%&* ^&$Hreh z$';
+    }
+    
+
+/*
+    24% {
+        content: '!#$ $^&dg$^ 2$';
+    }
+
+    26% {
+        content: '%G# 7%D$%df4 t3';
+    }
+
+    28% {
+        content: 'FH% !#$()kg* %-';
+    }
+
+    30% {
+        content: 'G^# T67#% G^ q$';
+    }
+
+    32% {
+        content: 'Q!@ fg#%^sdf *3';
+    }
+
+    34% {
+        content: 'RY& SF5*%67G 8S';
+    }
+
+    36% {
+        content: 'T*$ C*nghs% x^';
+        opacity: .5;
+
+    }
+*/
+
+    24% {
+        content: 'why choose us';
+      
+    }
+
+    100% {
+        content: 'why choose us';
+        
+
+    }
+}
+
+@keyframes techCompany {
+    0% {
+        content: 'Tech Company';
+        opacity: 1;
+    }
+
+    2% {
+        content: 'T$^! c0%!@%g';
+        opacity: .5;
+    }
+
+    4% {
+        content: '$%HD $^&!@%g';
+    }
+
+    6% {
+        content: 'T$^! D^&H!+';
+    }
+
+    8% {
+        content: '^&%^ M&@()KE';
+    }
+
+    10% {
+        content: '$^$% %@#GJ&$';
+    }
+
+    12% {
+        content: 'Hhd1 F<?>SG%!';
+    }
+
+    14% {
+        content: '&HJ^ I#N_+T&$';
+    }
+
+    16% {
+        content: 'yR^* W#$%47@%';
+    }
+
+    18% {
+        content: 'Z%^8 @34!#HJ*';
+    }
+
+    20% {
+        content: '[*(_) =/%#!`23';   
+
+    }
+
+    22% {
+        content: '%^&* ^&$rheh$';
+    }
+
+    24% {
+        content: '!@#$ $^&dg$^$';
+    }
+
+    26% {
+        content: 'T%G# 7%D$%df43';
+    }
+
+    28% {
+        content: '^FH% !#$()kg*-';
+    }
+
+    30% {
+        content: 'G^#J T67#% G^$';
+    }
+
+    32% {
+        content: 'Q!@# fg#%^sdf3';
+    }
+
+    34% {
+        content: 'RY&$ SF5*%67GS';
+    }
+
+    36% {
+        content: 'T*$G C*nghs%^';
+        opacity: .5;
+
+    }
+
+    38% {
+        content: 'Tech Company';
+        opacity: 1;
+    }
+
+    100% {
+        content: 'Tech Company';
+        opacity: 1;
+
+    }
+}
+
+@keyframes hero-type {
+    0% {
+        width: 0%;
+        content: 'web development';
+    }
+
+    7% {
+        width: 80%;
+        content: 'web development';
+    }
+
+    14% {
+        width: 0%;
+        content: 'web development';
+    }
+
+    /*--------1-----*/
+    15% {
+        width: 0%;
+        content: 'digital marketing';
+    }
+
+    24% {
+        width: 100%;
+        content: 'digital marketing';
+    }
+
+    31% {
+        width: 0%;
+        content: 'digital marketing';
+    }
+
+    /*-------2------*/
+    32% {
+        width: 0%;
+        content: 'software development';
+    }
+
+    41% {
+        width: 100%;
+        content: 'software development';
+    }
+
+    48% {
+        width: 0%;
+        content: 'software development';
+    }
+
+    /*------3-------*/
+    49% {
+        width: 0%;
+        content: 'web design';
+    }
+
+    58% {
+        width: 50%;
+        content: 'web design';
+    }
+
+    65% {
+        width: 0%;
+        content: 'web design';
+    }
+
+    /*------4-------*/
+    66% {
+        width: 0%;
+        content: 'data analysis';
+    }
+
+    75% {
+        width: 60%;
+        content: 'data analysis';
+    }
+
+    82% {
+        width: 0%;
+        content: 'data analysis';
+    }
+
+    /*------5-------*/
+    83% {
+        width: 0%;
+        content: 'app development';
+    }
+
+    92% {
+        width: 90%;
+        content: 'app development';
+    }
+
+    98% {
+        width: 0%;
+        content: 'app development';
+        /*----6---------*/
+    }
+
+    100% {
+        width: 0%;
+        content: 'web development';
+    }
+}
+
+@keyframes turn {
+    0% {
+ 
+    }
+
+    50% {
+        color: #017ba9;
+        transform: translateX(1rem);
+
+    }
+
+    100% {}
+
+
+}
+@keyframes turn-phone {
+    0%,100% {
+
+ transform: rotate(90deg);
+    }
+
+    50% {
+        color: #017ba9;
+        transform: translateX(.8rem) rotate(90deg);
+
+    }
+    /* added at the last moment */
+ /* transform : rotate(90deg); */
+}
