@@ -91,7 +91,9 @@ sup {
     border-radius: 5px;
     padding: 10px 15px;
     font-size: 1rem;
-    background: #017ba9;
+    background: transparent;
+    border: 2px solid #017ba9;
+    color: #017ba9;
     cursor: pointer;
     text-transform: uppercase;
     z-index: 100000;
@@ -99,9 +101,8 @@ sup {
 }
 
 .btn:hover {
-    border: 2px solid #017ba9;
-    background: transparent;
-    color: #017ba9;
+    color: #151515;
+    background: #017ba9;
 }
 
 header {
@@ -112,40 +113,20 @@ header {
 
 }
 
-nav {
+.nav-middle{
     height: 50px;
-    position: relative;
+    position:absolute;
     width: 100%;
-    display: grid;
-    grid-template-columns: 45% 10% 45%;
+    top: 2vh;
     text-align: center;
     margin: 0;
     z-index: 9000000;
 }
 
 
-
-.nav-left li {
-    float: right;
-}
-
-.nav-right li {
-    position: relative;
-    float: left;
-}
-
 .nav-middle i {
     color: #017ba9;
-    position: relative;
-    top: 50%;
-}
-
-nav a:hover {
-    color: rgb(73, 73, 248);
-}
-
- #active-page{
-    color: #017ba9;
+    font-size:2rem;
 }
 
 .hero {
@@ -758,7 +739,7 @@ iframe {
     text-align: justify;
 }
 
-.see-price-btn {
+.hire-us-btn {
     position: absolute;
     left: 20%;
     transform: translateX(-20%);
@@ -879,34 +860,6 @@ lable {
         display: none;
     }
 */
-
-    nav ul li {
-        float: none;
-    }
-
-    nav ul li a {
-        display: inline-block;
-        text-align: center;
-        padding: 1.5rem 16px;
-        text-decoration: none;
-        transition: 0.3s;
-        font-size: 2rem;
-        text-transform: uppercase;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        text-align: right;
-        padding: 14px 0;
-        text-decoration: none;
-        transition: 0.3s;
-        font-size: 17px;
-        text-transform: uppercase;
-    }
-
     sup {
         font-size: 2rem;
         font-size: 19px;
@@ -920,15 +873,15 @@ lable {
         padding: 2vh 2vw;
         font-size: 5vw;
         font-size: 19px;
-        background: #017ba9;
+        border: 2px solid #017ba9;
+        background: transparent;
         cursor: pointer;
         text-transform: uppercase;
     }
 
     .btn:hover {
-        border: 2px solid #017ba9;
-        background: transparent;
-        color: #017ba9;
+        color: #151515;
+        background: #017ba9;
     }
 
     header {
@@ -937,29 +890,6 @@ lable {
         min-height: 100vh;
 
         overflow: hidden;
-    }
-
-    nav {
-        height: 100vh;
-        position: absolute;
-        width: 80vw;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-content: space-between;
-        margin: 0;
-        padding-top: 20vh;
-        background: rgba(21, 21, 21, .9);
-        z-index: 10000000000000;
-    }
-
-    .nav-middle {
-        display: none;
-    }
-
-    nav {
-        display: none;
     }
 
     /*    end of the nav bar  */
@@ -1806,7 +1736,7 @@ iframe {
     text-align: justify;
 }
 
-.see-price-btn {
+.hire-us-btn {
     position: relative;
      margin:0 4em 4em;
 }
@@ -1881,11 +1811,6 @@ iframe {
     font-size: 26px;
     color: #fff;
     text-align: center;
-}
-
-lable {
-    color: #fff;
-    ;
 }
 
 .hire-form .input {
