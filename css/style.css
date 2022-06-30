@@ -147,7 +147,9 @@ header {
 
 .hero-title {
   color: azure;
-  font-size: 6rem;
+  font-size: 8rem;
+  text-align: end;
+  margin-right: 2rem;
   display: inline-block;
   /* float: left; */
 }
@@ -913,7 +915,7 @@ lable {
     display: flex;
     justify-content: flex-start;
     align-self: flex-start;
-    margin: 10vh 5vw 3vh;
+    margin: 10vh 0vw 3vh;
   }
 
   .hero-title {
